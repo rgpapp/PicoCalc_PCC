@@ -24,7 +24,7 @@ pcc.bas - PicoCalc Commander allows you to browse the SD Card and built-in flash
   * WAV files (blue) can be played
   * JPEG and BMP pictures (cyan) can be viewed
   * Directories (green) can be opened
-* When re-starting PCC after having used it to launch a BASIC program, or after quitting PCC using "Q", it will remember its last state (the directories and file selections in its panes) - this function is based on LOAD CONTEXT, and uses 159KB on A: drive
+* When re-starting PCC after having used it to launch a BASIC program, or after quitting PCC using "Q", it will remember its last state (the directories and file selections in its panes) - this function is based on SAVE/LOAD CONTEXT, and uses 159KB on A: drive
 * Toggle file info on the status line (displays size, modified date, and free space available on the selected drive)
 
 ## Usage
