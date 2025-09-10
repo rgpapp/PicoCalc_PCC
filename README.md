@@ -24,15 +24,15 @@ pcc.bas - PicoCalc Commander allows you to browse the SD Card and built-in flash
   * WAV files (blue) can be played
   * JPEG and BMP pictures (cyan) can be viewed
   * Directories (green) can be opened
-* When re-starting PCC after having launched a BASIC program from it, or after quitting PCC using "Q", it will remember its last state (the directories and file selections in its panes) - this function is based on LOAD CONTEXT, and uses 159KB on A: drive
+* When re-starting PCC after having used it to launch a BASIC program, or after quitting PCC using "Q", it will remember its last state (the directories and file selections in its panes) - this function is based on LOAD CONTEXT, and uses 159KB on A: drive
 * Toggle file info on the status line (displays size, modified date, and free space available on the selected drive)
 
 ## Usage
 
 * Launch with: run "pcc" 
-* It is recommended to configure a function key for easier launching, for example to use F6 here is the configuration line (provided you copied pcc.bas to the A: drive):
+* It is recommended to configure a function key to launch PCC more conveniently. For example, to use F6 to start PCC, here is the configuration line you should use (provided you copied pcc.bas to the A: drive):
   * OPTION F6 "*"+chr$(34)+"a:pcc"+chr$(34)+chr$(13)
-* There is a help function built-in (press H) that lists all the functions
+* There is a built-in help (press "H") that lists all the available functions
 * Usable keys are as follows:
   * **left, right arrows, tab:** select pane
   * **up, down arrows:** select file or directory
