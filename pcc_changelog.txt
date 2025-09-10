@@ -1,0 +1,9 @@
+/* PicoCalc Commander Chamgelog
+----------------------------------------
+` 1.03 Fixed a bug where load context
+       did not load q$ when it contained
+       chr$(34), save context on excit
+` 1.02 Version check, file info display
+` 1.01 Message display improvements,
+       code optimization
+` 1.00 Initial release
