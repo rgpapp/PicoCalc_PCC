@@ -50,7 +50,7 @@ pcc.bas - PicoCalc Commander allows you to browse the SD Card and built-in flash
 
 ## Bugs, limitations
 
-* PCC is limited to 100 files per directory, and 32 nested directories total.
+* PCC is limited to 100 files per directory, and a maximum of 32 nested directories
 * Only one file can be copied, moved or deleted at a time (no select function)
 * Directories cannot be moved or copied, and can only be deleted when empty
 * Sometimes, the first time PCC checks for the available free space on a drive (when using file info function, or when PCC checks for free space before copying or moving) it can take a really long time (10 seconds or so) and the program will be unresponsive. I am trying to figure out why that is.
