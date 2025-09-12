@@ -29,24 +29,24 @@ pcc.bas - PicoCalc Commander allows you to browse the SD Card and built-in flash
 
 ## Usage
 
-* Launch with: run "pcc" 
+* Launch with: `run "pcc"`
 * It is recommended to configure a function key to launch PCC more conveniently. For example, to use F6 to start PCC, here is the configuration line you should use (provided you copied pcc.bas to the A: drive):
-  * OPTION F6 "*"+chr$(34)+"a:pcc"+chr$(34)+chr$(13)
+  *  `OPTION F6 "*"+chr$(34)+"a:pcc"+chr$(34)+chr$(13)`
 * There is a built-in help (press "H") that lists all the available functions
 * Usable keys are as follows:
-  * **left, right arrows, tab:** select pane
-  * **up, down arrows:** select file or directory
-  * **A, B:** select A: or B: drive
-  * **Enter:** open directory, launch or view file
-  * **Esc, backspace:** parent directory
-  * **C:** Copy file
-  * **M:** Move file (implemented as copy and delete)
-  * **D:** Delete file or directory (if empty)
-  * **K:** create directory
-  * **R:** rename file
-  * **I:** toggle file info line
-  * **Q:** quit
-  * **H:** help
+  * `left, right arrows, tab:` select pane
+  * `up, down arrows:` select file or directory
+  * `A, B:` select A: or B: drive
+  * `Enter:` open directory, launch or view file
+  * `Esc, backspace:` parent directory
+  * `C:` Copy file
+  * `M:` Move file (implemented as copy and delete)
+  * `D:` Delete file or directory (if empty)
+  * `K:` create directory
+  * `R:` rename file
+  * `I:` toggle file info line
+  * `Q:` quit
+  * `H:` help
 
 ## Bugs, limitations
 
